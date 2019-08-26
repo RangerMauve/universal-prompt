@@ -1,0 +1,30 @@
+{
+  "name": "universal-prompt",
+  "version": "0.0.0",
+  "description": "Use `prompt()` in node and the browser",
+  "main": "index.js",
+  "browser": "browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/universal-prompt.git"
+  },
+  "keywords": [
+    "prompt",
+    "browser",
+    "node",
+    "universal",
+    "polyfill"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/universal-prompt/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/universal-prompt#readme",
+  "dependencies": {
+    "prompt-sync": "^4.1.7"
+  }
+}
